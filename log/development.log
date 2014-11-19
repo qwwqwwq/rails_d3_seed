@@ -1,0 +1,1701 @@
+
+
+Started GET "/" for ::1 at 2014-11-18 20:08:27 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/railties-4.2.0.beta4/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 46ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph" for ::1 at 2014-11-18 20:08:32 -0800
+
+ActionController::RoutingError (No route matches [GET] "/graph"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (19.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (85.3ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:08:37 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (0.3ms)
+Warning. Error encountered while saving cache f61cccc395012fb34383d1f91a69296cb6265ebb/graph.css.scssc: can't dump anonymous class #<Class:0x007f8eda213818>
+
+Completed 200 OK in 690ms (Views: 690.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/assets/graph-2e508ea64703722602adc2a8928e1d8a.js?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/assets/application-6a53fb4cea6176979e2ebf001c188288.js?body=1" for ::1 at 2014-11-18 20:08:38 -0800
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:09:01 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/assets/application-6a53fb4cea6176979e2ebf001c188288.js?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/assets/graph-2e508ea64703722602adc2a8928e1d8a.js?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:09:01 -0800
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:11:40 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/assets/graph-e78cba6f31cf2aa37679a9760f059f38.js?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/assets/application-7d777d7114862271bd307a585cf29984.js?body=1" for ::1 at 2014-11-18 20:11:41 -0800
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:21:32 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/assets/graph-e78cba6f31cf2aa37679a9760f059f38.js?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/assets/application-7d777d7114862271bd307a585cf29984.js?body=1" for ::1 at 2014-11-18 20:21:32 -0800
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:23:52 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 19ms
+
+NameError (undefined local variable or method `graph' for #<#<Class:0x007f8edfd3a890>:0x007f8ed9e1eb18>):
+  app/views/graph/index.html.erb:1:in `_app_views_graph_index_html_erb__130716417908621239_70125758767920'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (57.6ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:24:04 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms
+
+Sprockets::Rails::Helper::AssetFilteredError (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( graph.js )` to `config/initializers/assets.rb` and restart your server):
+  app/views/graph/index.html.erb:1:in `_app_views_graph_index_html_erb__130716417908621239_70125753832160'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (21.4ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:26:16 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 141ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/assets/graph-e78cba6f31cf2aa37679a9760f059f38.js?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/assets/application-7d777d7114862271bd307a585cf29984.js?body=1" for ::1 at 2014-11-18 20:26:17 -0800
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:26:50 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/assets/application-7d777d7114862271bd307a585cf29984.js?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/assets/graph-e78cba6f31cf2aa37679a9760f059f38.js?body=1" for ::1 at 2014-11-18 20:26:50 -0800
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:43:50 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 183ms (Views: 175.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/assets/graph-6e648a07da4d9b7ace46b291475d79d4.js?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/assets/application-499a35275ce5df6cb420ae56f970e8cf.js?body=1" for ::1 at 2014-11-18 20:43:50 -0800
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 20:44:21 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/assets/graph-f6957d30950fdd1b3cc3142e2c23ad4f.js?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/assets/application-7a65f3619d09a07af2f1f2563e611141.js?body=1" for ::1 at 2014-11-18 20:44:21 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:44:21 -0800
+
+ActionController::RoutingError (No route matches [GET] "/graph/data"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.text.erb (4.3ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:44:21 -0800
+
+ActionController::RoutingError (No route matches [GET] "/graph/data"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.text.erb (5.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:44:31 -0800
+
+ActionController::RoutingError (No route matches [GET] "/graph/data"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (6.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (19.9ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:47:04 -0800
+Processing by GraphController#data as HTML
+Completed 500 Internal Server Error in 9ms
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/graph_controller.rb:7:in `block in data'
+  app/controllers/graph_controller.rb:6:in `data'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (51.5ms)
+
+
+Started POST "/graph/console/repl_sessions/12b2a18d7bbe1aa390852e2bd409b633/trace" for ::1 at 2014-11-18 20:47:27 -0800
+
+ActionController::RoutingError (No route matches [POST] "/graph/console/repl_sessions/12b2a18d7bbe1aa390852e2bd409b633/trace"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (11.0ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (28.6ms)
+
+
+Started POST "/graph/console/repl_sessions/12b2a18d7bbe1aa390852e2bd409b633/trace" for ::1 at 2014-11-18 20:47:30 -0800
+
+ActionController::RoutingError (No route matches [POST] "/graph/console/repl_sessions/12b2a18d7bbe1aa390852e2bd409b633/trace"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:50:44 -0800
+Processing by GraphController#data as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/graph_controller.rb:7:in `block in data'
+  app/controllers/graph_controller.rb:6:in `data'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:51:12 -0800
+Processing by GraphController#data as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/graph_controller.rb:6:in `data'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (19.8ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:55:02 -0800
+Processing by GraphController#data as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/graph_controller.rb:6:in `data'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:56:10 -0800
+Processing by GraphController#data as HTML
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template graph/data, application/data with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates"
+  * "/Users/jeffquinn/Code/rails_d3/app/views"
+  * "/Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/app/views"
+):
+  app/controllers/graph_controller.rb:6:in `data'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:57:17 -0800
+Processing by GraphController#data as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/graph_controller.rb:6:in `data'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 20:59:49 -0800
+Processing by GraphController#data as JSON
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph" for ::1 at 2014-11-18 20:59:54 -0800
+
+ActionController::RoutingError (No route matches [GET] "/graph"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (13.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/graph" for ::1 at 2014-11-18 20:59:57 -0800
+
+ActionController::RoutingError (No route matches [GET] "/graph"):
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0.beta4) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.beta4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.beta4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.2.0.beta4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.beta4) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.beta4) lib/rails/engine.rb:514:in `call'
+  railties (4.2.0.beta4) lib/rails/application.rb:161:in `call'
+  rack (1.6.0.beta) lib/rack/tempfile_reaper.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/lint.rb:49:in `_call'
+  rack (1.6.0.beta) lib/rack/lint.rb:37:in `call'
+  rack (1.6.0.beta) lib/rack/showexceptions.rb:24:in `call'
+  rack (1.6.0.beta) lib/rack/commonlogger.rb:33:in `call'
+  rack (1.6.0.beta) lib/rack/chunked.rb:54:in `call'
+  rack (1.6.0.beta) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0.beta) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (14.5ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:00:00 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 416ms (Views: 415.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/assets/application-cb6951bf03b2d86391f1d1f6e5bed7e6.js?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/assets/graph-8a3d923dcd7f7293e7ab7f5a09cc3bb5.js?body=1" for ::1 at 2014-11-18 21:00:00 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:00:00 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:00:00 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:08:34 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 110ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/assets/graph-66be27e0e942dd89383e934788986ec4.js?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/assets/application-a1c5378ddc89b6428bfc02e63221e1ce.js?body=1" for ::1 at 2014-11-18 21:08:34 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:08:34 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:08:34 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:10:56 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/assets/graph-be7c39533b1f5796d30da00332059eb9.js?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/assets/application-d2263ac9db6e5f7f68cb50354775f97d.js?body=1" for ::1 at 2014-11-18 21:10:56 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:10:56 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:10:56 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:11:23 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 70ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/assets/graph-35db9326de13d73f9777fdcc8c36cb4b.js?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/assets/application-e0b70b4e59bc32e35dc2ffad0b73227e.js?body=1" for ::1 at 2014-11-18 21:11:23 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:11:23 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:11:23 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:12:35 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 126ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/assets/application-ef75e6604a41435740b17fd7e30067a3.js?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/assets/graph-e84316f441646cd38bd10c7241ea36d3.js?body=1" for ::1 at 2014-11-18 21:12:35 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:12:35 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:12:35 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:16:05 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 91ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/assets/graph-aa3601755986ceeb9df8df4f4bd3ea75.js?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/assets/application-91d96a385d3d2294b27501ef16e0de37.js?body=1" for ::1 at 2014-11-18 21:16:05 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:16:05 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:16:05 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:17:14 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/assets/graph-aa3601755986ceeb9df8df4f4bd3ea75.js?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/assets/application-91d96a385d3d2294b27501ef16e0de37.js?body=1" for ::1 at 2014-11-18 21:17:14 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:17:14 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:19:04 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:19:04 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:19:04 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:19:04 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:19:04 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:19:04 -0800
+
+
+Started GET "/assets/application-b0681a44a781014bc149a9dbb90768a2.js?body=1" for ::1 at 2014-11-18 21:19:04 -0800
+
+
+Started GET "/assets/graph-2692cf11164289d89c64ce070e9db925.js?body=1" for ::1 at 2014-11-18 21:19:04 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:19:05 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:19:05 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:19:05 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:19:25 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/assets/graph-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/assets/application-b0681a44a781014bc149a9dbb90768a2.js?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/assets/graph-2692cf11164289d89c64ce070e9db925.js?body=1" for ::1 at 2014-11-18 21:19:25 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:19:25 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:19:25 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:20:21 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/assets/graph-2692cf11164289d89c64ce070e9db925.js?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/assets/application-b0681a44a781014bc149a9dbb90768a2.js?body=1" for ::1 at 2014-11-18 21:20:21 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:20:21 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:20:21 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:20:30 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 155ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/assets/graph-2692cf11164289d89c64ce070e9db925.js?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/assets/application-b0681a44a781014bc149a9dbb90768a2.js?body=1" for ::1 at 2014-11-18 21:20:30 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:20:31 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:20:31 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:21:57 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/assets/graph-db4ead02db6258f43011f1558c19859d.js?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/assets/application-5943f3e9ede7de44c50b0728537c1be2.js?body=1" for ::1 at 2014-11-18 21:21:57 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:21:57 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:21:57 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:22:04 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/assets/application-5943f3e9ede7de44c50b0728537c1be2.js?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/assets/graph-db4ead02db6258f43011f1558c19859d.js?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:22:04 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:22:04 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:22:04 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:23:26 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 109ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/assets/application-b0681a44a781014bc149a9dbb90768a2.js?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/assets/graph-2692cf11164289d89c64ce070e9db925.js?body=1" for ::1 at 2014-11-18 21:23:26 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:23:26 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:24:26 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/assets/graph-2692cf11164289d89c64ce070e9db925.js?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/assets/application-b0681a44a781014bc149a9dbb90768a2.js?body=1" for ::1 at 2014-11-18 21:24:26 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:24:26 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:24:26 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:25:10 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 127ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/assets/graph-4b7538e2291ddd2cc9033928a3858030.js?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/assets/application-ac8e7dee7b7e27cdcce8a8319346aa2b.js?body=1" for ::1 at 2014-11-18 21:25:10 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:25:11 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:25:11 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:27:30 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 85ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/assets/graph-5f1615d55bf0b7478b4831df47f7af65.js?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/assets/application-9a250e5ea6456dcf664287e3d37333f0.js?body=1" for ::1 at 2014-11-18 21:27:30 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:27:30 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:27:30 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:28:00 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 89ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-5a519e0a629fdc846f135748e36c9537.css?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/assets/application-ae260293c286ff588d3e1320e3acb934.css?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/assets/graph-5f1615d55bf0b7478b4831df47f7af65.js?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/assets/application-9a250e5ea6456dcf664287e3d37333f0.js?body=1" for ::1 at 2014-11-18 21:28:00 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:28:00 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:28:00 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:29:12 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 73ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/assets/graph-5f1615d55bf0b7478b4831df47f7af65.js?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/assets/application-9a250e5ea6456dcf664287e3d37333f0.js?body=1" for ::1 at 2014-11-18 21:29:12 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:29:12 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:29:12 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:30:03 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/assets/graph-1def9d13e2004cf3cf2915ce4be6c2ac.js?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/assets/application-c5a57e56ca5d2fe49040fdde7374b93c.js?body=1" for ::1 at 2014-11-18 21:30:03 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:30:03 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:30:03 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:31:04 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 94ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:31:04 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:31:04 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:31:04 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:31:04 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:31:04 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:31:05 -0800
+
+
+Started GET "/assets/application-19bd6364b898a950b55acfcee261bb14.js?body=1" for ::1 at 2014-11-18 21:31:05 -0800
+
+
+Started GET "/assets/graph-e5a667b91bb43685ffb84d6cbff50d0a.js?body=1" for ::1 at 2014-11-18 21:31:05 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:31:05 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:31:05 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:31:11 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/assets/application-dc1a7a703c447ee7bb30e098f43c14cf.js?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/assets/graph-3b4e607ac66f5db47242c4196b416929.js?body=1" for ::1 at 2014-11-18 21:31:11 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:31:11 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:31:11 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 21:31:34 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-70c043e4f717834b2ed26ba0bd8b040d.css?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/assets/graph-29c34808a8aedc1939856970e5a734ec.css?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/assets/application-8c556ceb5b488d617e68d93c7c0b1797.js?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/assets/graph-c13d059a2342fc5140cee1da4293c180.js?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 21:31:34 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:31:34 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 21:31:34 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/index" for ::1 at 2014-11-18 22:17:15 -0800
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 188ms (Views: 179.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for ::1 at 2014-11-18 22:17:15 -0800
+
+
+Started GET "/assets/application-6104dfe918f9daf733a0654c847046eb.css?body=1" for ::1 at 2014-11-18 22:17:15 -0800
+
+
+Started GET "/assets/d3-589ec0ad056ce476f7356474cd71c9d0.js?body=1" for ::1 at 2014-11-18 22:17:15 -0800
+
+
+Started GET "/assets/graph-a2d1dcaebef7e2e02b9e93429e20f5dc.js?body=1" for ::1 at 2014-11-18 22:17:15 -0800
+
+
+Started GET "/assets/turbolinks-60c7d150bd7b7a75d67e6d1f0d4129a6.js?body=1" for ::1 at 2014-11-18 22:17:15 -0800
+
+
+Started GET "/assets/jquery_ujs-ae280aaa31faeb1eb0139b5cd60e3356.js?body=1" for ::1 at 2014-11-18 22:17:15 -0800
+
+
+Started GET "/assets/application-27ffc215a4ddcadf231145dc1a55ea79.js?body=1" for ::1 at 2014-11-18 22:17:15 -0800
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 22:17:15 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 22:17:15 -0800
+Processing by GraphController#data as JSON
+  Parameters: {"graph"=>{}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/graph/data" for ::1 at 2014-11-18 22:17:36 -0800
+Processing by GraphController#data as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/graph_controller.rb:6:in `data'
+
+
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/jeffquinn/.rvm/gems/ruby-2.1.1/gems/web-console-2.0.0.beta4/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (21.0ms)
